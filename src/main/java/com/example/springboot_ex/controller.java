@@ -30,8 +30,11 @@ public String getName() {
 
 
 @GetMapping("/names")
-public String[] getNames() {
-    String[] names = {"ahmed", "mohammed", "almroba"};
+public ArrayList<String>  getnamee() {
+    ArrayList<String> names = new ArrayList<>();
+    names.add("ahmed");
+    names.add("mohmmed");
+    names.add("almroba");
     return names;
 
 
